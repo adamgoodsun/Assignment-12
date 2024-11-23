@@ -1,0 +1,41 @@
+#map { 
+    height: 500px; 
+    border: 1px solid #000;
+}
+body {
+    background: #fff;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: 'Josefin Sans', Verdana, Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: Domine, Garamond, 'Times New Roman', serif;
+    padding: 2rem 20rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 1200px){ 
+    p {
+        padding: 2rem 12rem
+    }
+}
+@media screen and (max-width: 900px){ 
+    p {
+        padding: 2rem 6rem
+    }
+}
+@media screen and (max-width: 600px){ 
+    p {
+        padding: 1rem 1rem
+    }
+}

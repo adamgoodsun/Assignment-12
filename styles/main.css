@@ -1,0 +1,41 @@
+#mapped { 
+    height: 550px; 
+    border: 1px solid #000;
+}
+body {
+    background: #fff;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: 'Josefin Sans', Verdana, Arial, sans-serif;
+}
+
+.about {
+    text-align: center;
+    font-family: Domine, Garamond, 'Times New Roman', serif;
+    padding: 2rem 20rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 1200px){ 
+    .about {
+        padding: 2rem 12rem
+    }
+}
+@media screen and (max-width: 900px){ 
+    .about {
+        padding: 2rem 6rem
+    }
+}
+@media screen and (max-width: 600px){ 
+    .about {
+        padding: 1rem 1rem
+    }
+}
